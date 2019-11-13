@@ -11,7 +11,7 @@ function Home() {
 
       {categories.map(({ id, name, slug }) => {
         return (
-          <Link key={id} to={`/category/${slug}`}>
+          <Link key={id} to={`/categories/${slug}`}>
             {name}
             <br />
           </Link>
